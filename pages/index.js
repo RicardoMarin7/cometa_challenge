@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import Totalinfo from '../components/TotalInfo';
+import Totalinfo from '../components/Totalinfo'
 import useStudentContext from '../hooks/useStudentContext';
 import BasicLayout from '../layouts/BasicLayout';
 import useOrders from '../hooks/useOrders'
