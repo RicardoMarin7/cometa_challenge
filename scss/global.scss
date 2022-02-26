@@ -1,0 +1,133 @@
+@import './index.scss';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+    width: 100%;
+    height: 100%;
+    
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+h1,h2,h3,h4,h5,a {
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    font-size:1.6rem;
+    line-height:2;
+    font-family: 'Roboto', sans-serif;
+    color: $font;
+    margin: 0;
+    background: $background-primary;
+    background-repeat: repeat;
+}
+
+
+/*** Botones e Input ***/
+button, input {
+    font-size: 1.4rem!important;
+    font-family: 'Roboto', sans-serif!important;    
+}
+
+.ui.button.primary{
+    background-color: $primary;
+    color: $font;
+    transition: all 0.3s ease-out;
+
+    &:hover{
+        background-color: $primary;
+        opacity: .8;
+    }
+
+    
+    &:focus{
+        background-color: $primary;
+        opacity: .5;
+    }
+}
+
+.ui.button.secondary{
+    background-color: $background-secondary;
+    color: $primary;
+    border: 1px solid $primary;
+    transition: all 0.3s ease-out;
+
+    &:hover{
+        background-color: $background-secondary;
+        color:$font;
+        border-color: $font;
+    }
+
+}
+
+.ui.input{
+    input{
+        background-color: $background-secondary;
+        color: $font!important;
+
+        &:focus{
+            border-color: $font;
+            background-color: $background-secondary;
+        }
+    }
+}
+
+/*** Fin Botones e input***/
+
+h1{ font-size: 2.5rem;} h2{ font-size: 2.2rem;} h3{ font-size: 1.9rem;} h4{ font-size: 1.6rem;}
+
+a{
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+    color: $font;
+
+    &:hover{
+        color: $font;
+    }
+}
+
+ul{
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+.container{
+    max-width: 136.8rem;
+    margin: 0 auto;
+    width: 95%;
+}
+
+@media(max-width:468px){
+    .container{
+        max-width: 114rem;
+        margin: 0 auto;
+        width: 85%;
+    }
+}
+
+img {
+    max-width:100%;
+}
+
+.Card{
+    display: flex;
+    width: 95%;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem auto!important; 
+    padding: 1rem 2rem;
+    background-color: $background-secondary;
+    border-radius: 1rem !important;
+    box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.2);
+
+    &--accordion{
+        display: block;
+        padding: 0;      
+    }
+}

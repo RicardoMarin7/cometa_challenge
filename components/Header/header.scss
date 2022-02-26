@@ -1,0 +1,27 @@
+.Header{
+    display: inline-flex;
+    align-items:center ;
+    justify-content: center;
+    padding: 1rem;
+    background-color: $background-secondary;
+    min-width: 100%;    
+    box-shadow:  1px 6px 7px -5px rgba(0,0,0,0.64);
+
+    &__name{
+        margin: 0;
+        margin-left: 1rem;
+        font-weight: 400;
+    }
+
+    &__avatar{
+        font-size: 2rem;
+        font-weight: 700;
+        background-color: $primary;
+    }
+
+    &__avatar, &__name{
+        &--Skeleton{
+            background-color: rgba(25, 25, 25, .3);
+        }
+    }
+}

@@ -1,0 +1,1 @@
+export const STUDENTS_ENDPOINT = 'http://ec2-3-239-221-74.compute-1.amazonaws.com:8000/api/v1/students'

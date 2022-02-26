@@ -1,0 +1,33 @@
+.FeesCard{
+    text-align: left;
+
+    &::before{
+        display: none;
+    }
+
+    &__title{
+        margin: 0;
+        
+    }
+    
+    &__fee{
+        margin-bottom: 1rem;
+        h4{
+            margin: 0;            
+            font-weight: 400;
+        }
+
+        p{
+            margin: 0;
+            font-size: 1.2rem;
+        }
+    }
+
+    &__summary{
+        max-height: 3rem;
+    }
+    
+    &__details{
+        padding-top: 0!important;
+    }
+}

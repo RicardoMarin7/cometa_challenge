@@ -1,0 +1,25 @@
+/**************************** Colors ****************************/
+    @import './colors.scss';
+
+
+/*************************** Layouts *************************/
+    @import '../layouts/BasicLayout/BasicLayout.scss';
+
+/*************************** Components *************************/
+    /*Footer*/
+    @import '../components/Footer/footer.scss';
+
+    /*Header*/
+    @import '../components/Header/header.scss';
+
+    /*Sidebar*/
+    @import '../components/Sidebar/sidebar.scss';
+    
+    /*Totalinfo*/
+    @import '../components/Totalinfo/totalinfo.scss';
+
+    /* FeesPaid */
+    @import '../components/FeesPaid/feespaid.scss';
+
+    /* DueFee */
+    @import '../components/DueFees/DueFee/duefee.scss';

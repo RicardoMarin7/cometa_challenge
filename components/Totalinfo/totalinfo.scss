@@ -1,0 +1,21 @@
+.Totalinfo{
+
+    &__student, &__debt{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+
+        p{
+            margin: 0;
+            margin-bottom: 1rem;            
+        }
+    }
+
+    &__student{
+
+        &_cohort, &_name{
+            font-size: 1.4rem;
+        }
+    }
+}

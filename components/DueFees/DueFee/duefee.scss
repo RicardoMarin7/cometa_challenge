@@ -1,0 +1,34 @@
+.Fee{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 1rem;
+
+    &__details{
+        h4{
+            margin: 0;            
+            font-weight: 400;
+        }
+
+        p{
+            margin: 0;
+            font-size: 1.2rem;
+        }
+    }
+
+    &__pay{
+        display: flex;
+        align-items: center;
+    }
+
+    &__charges{
+        text-align: right;
+        p{
+            margin: 0;
+        }
+        &__interest{
+            font-size: 1.2rem;
+        }
+    }
+}
