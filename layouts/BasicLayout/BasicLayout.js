@@ -1,7 +1,5 @@
 import React from 'react'
-import Sidebar from '../../components/Sidebar'
 import Header from '../../components/Header'
-import Footer from '../../components/Footer'
 
 const BasicLayout = ({children}) => {
     return (
@@ -10,7 +8,6 @@ const BasicLayout = ({children}) => {
             <main>
                 <Header />                    
                     {children}                    
-                <Footer />            
             </main>
         </div>
     );
